@@ -1,0 +1,24 @@
+#
+# author:    Xu Xiaodong <xxdlhy@gmail.com>
+# modified:  2011 Aug 14
+#
+
+#-- path --#
+
+export ZSH=$HOME/lib/zsh
+
+#-- theme --#
+
+export ZSH_THEME="prose"
+
+#-- plugin --#
+
+plugins=(git)
+
+#-- update --#
+
+export DISABLE_AUTO_UPDATE="true"
+
+#-- source --#
+
+source $ZSH/oh-my-zsh.sh
