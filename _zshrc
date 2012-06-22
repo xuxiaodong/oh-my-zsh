@@ -1,24 +1,22 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2011 Aug 14
+# modified:  2012 Jun 22
 #
 
-#-- path --#
+# path
+export ZSH=$HOME/code/oh-my-zsh
 
-export ZSH=$HOME/lib/zsh
-
-#-- theme --#
-
+# theme
 export ZSH_THEME="prose"
 
-#-- plugin --#
+# plugin
+plugins=(command-coloring gem git github perl ruby)
 
-plugins=(git)
+# title
+export DISABLE_AUTO_TITLE="true"
 
-#-- update --#
-
+# update
 export DISABLE_AUTO_UPDATE="true"
 
-#-- source --#
-
+# source
 source $ZSH/oh-my-zsh.sh
