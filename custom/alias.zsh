@@ -1,9 +1,12 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Jun 21
+# modified:  2012 Jun 24
 #
 
 #-- base --#
+
+alias a='$HOME/code'
+alias b='$HOME/bin'
 
 alias cp='cp -v'
 alias mv='mv -v'
