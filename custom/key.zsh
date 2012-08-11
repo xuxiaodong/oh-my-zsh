@@ -1,11 +1,11 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2011 Apr 13
+# modified:  2012 Aug 03
 #
 
 #-- mode --#
 
-set -o emacs
+set -o vi
 
 #-- bind --#
 

@@ -1,11 +1,11 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2011 Apr 18
+# modified:  2012 Jul 19
 #
 
 #-- path --#
 
-export PATH=/usr/libexec/cw:$PATH:$HOME/bin:$HOME/.vim/bundle/perlomni/bin
+export PATH=$PATH:$HOME/bin:$HOME/.rbenv/bin
 
 #-- pager --#
 
