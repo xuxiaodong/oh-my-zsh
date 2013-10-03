@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Jul 19
+# modified:  2013 Sep 30
 #
 
 export ZSH=$HOME/code/oh-my-zsh
@@ -14,3 +14,6 @@ source $ZSH/oh-my-zsh.sh
 
 # rbenv
 eval "$(rbenv init -)"
+
+# perlbrew
+#source ~/perl5/perlbrew/etc/bashrc

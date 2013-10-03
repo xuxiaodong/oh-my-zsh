@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Jun 24
+# modified:  2012 Aug 26
 #
 
 #-- base --#
@@ -21,8 +21,8 @@ alias less=$PAGER
 alias grep='grep --color=auto'
 alias smtp='/usr/sbin/ssmtp -C.ssmtp/ssmtp.conf -oA.ssmtp/revaliases'
 
-alias p='mpg123 -C'
 alias m='mplayer'
+alias z='zathura'
 
 #-- perl --#
 
@@ -40,8 +40,3 @@ alias rca='mencoder tv:// -tv driver=v4l2:width=320:height=240:device=/dev/video
 
 alias vu='VBoxManage startvm Ubuntu --type sdl'
 alias vw='VBoxManage startvm WinXP --type sdl'
-
-#-- octopress --#
-alias pn='new() { bundle exec rake new_post\["$1"\] }; new'
-alias pc='commit() { git add .; git commit -m "$1"; git push origin source }; commit'
-alias pg='bundle exec rake generate; bundle exec rake deploy'
