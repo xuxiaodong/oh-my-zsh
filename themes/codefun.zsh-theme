@@ -15,7 +15,7 @@ function history_number {
 }
 
 PROMPT='
-%{$fg[magenta]%}┌─ %n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%}$(hg_prompt_info)$(git_prompt_info) %(?,{0},%{${fg_bold[white]}%}{%?}%{$reset_color%}) %{$fg[blue]%}{$(history_number)}%{$reset_color%}
+%{$fg[magenta]%}┌─ %n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%}$(hg_prompt_info)$(git_prompt_info) %(?,{0},%{${fg_bold[white]}%}{%?}%{$reset_color%})
 %{$fg[magenta]%}└╼%{$reset_color%} '
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
