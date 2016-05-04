@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Aug 26
+# modified:  2016 Mar 05
 #
 
 #-- base --#
@@ -18,7 +18,7 @@ alias df='df -h'
 alias du='du -h'
 
 alias less=$PAGER
-alias grep='grep --color=auto'
+#alias grep='grep --color=auto'
 alias smtp='/usr/sbin/ssmtp -C.ssmtp/ssmtp.conf -oA.ssmtp/revaliases'
 
 alias m='mplayer'
@@ -40,3 +40,5 @@ alias rca='mencoder tv:// -tv driver=v4l2:width=320:height=240:device=/dev/video
 
 alias vu='VBoxManage startvm Ubuntu --type sdl'
 alias vw='VBoxManage startvm WinXP --type sdl'
+
+alias kk='/usr/bin/wine $HOME/.wine/drive_c/Program\ Files/Amazon/Kindle/Kindle.exe >/dev/null 2>&1'

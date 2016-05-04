@@ -1,19 +1,28 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2013 Sep 30
+# modified:  2016 Feb 17
 #
 
 export ZSH=$HOME/code/oh-my-zsh
-export ZSH_THEME="codefun"
+export ZSH_THEME="itoy"
 export DISABLE_AUTO_TITLE="true"
 export DISABLE_AUTO_UPDATE="true"
 
-plugins=(command-coloring gem git github perl ruby)
+plugins=(command-coloring git perl ruby)
 
 source $ZSH/oh-my-zsh.sh
 
 # rbenv
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
-# perlbrew
-#source ~/perl5/perlbrew/etc/bashrc
+# virtualenvwrapper
+#source /usr/bin/virtualenvwrapper.sh
+
+# z
+#source ~/code/z/z.sh
+
+# k
+source ~/src/k/k.sh
+
+# pyenv
+eval "$(pyenv init -)"
