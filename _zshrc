@@ -1,10 +1,10 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2016 Feb 17
+# modified:  2016 May 05
 #
 
-export ZSH=$HOME/code/oh-my-zsh
-export ZSH_THEME="itoy"
+export ZSH=$HOME/envconf/oh-my-zsh
+export ZSH_THEME="codefun"
 export DISABLE_AUTO_TITLE="true"
 export DISABLE_AUTO_UPDATE="true"
 
@@ -22,7 +22,7 @@ source $ZSH/oh-my-zsh.sh
 #source ~/code/z/z.sh
 
 # k
-source ~/src/k/k.sh
+#source ~/src/k/k.sh
 
 # pyenv
-eval "$(pyenv init -)"
+#eval "$(pyenv init -)"
