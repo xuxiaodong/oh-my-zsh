@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2016 Mar 05
+# modified:  2016 May 08
 #
 
 #-- base --#
@@ -18,7 +18,7 @@ alias df='df -h'
 alias du='du -h'
 
 alias less=$PAGER
-#alias grep='grep --color=auto'
+alias grep='grep --color=auto'
 alias smtp='/usr/sbin/ssmtp -C.ssmtp/ssmtp.conf -oA.ssmtp/revaliases'
 
 alias m='mplayer'

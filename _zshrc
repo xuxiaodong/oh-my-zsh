@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2016 May 05
+# modified:  2016 May 08
 #
 
 export ZSH=$HOME/envconf/oh-my-zsh
@@ -8,21 +8,10 @@ export ZSH_THEME="codefun"
 export DISABLE_AUTO_TITLE="true"
 export DISABLE_AUTO_UPDATE="true"
 
-plugins=(command-coloring git perl ruby)
+plugins=(archlinux command-coloring compleat dirpersist extract git \
+    history-substring-search git-flow github perl ruby)
 
 source $ZSH/oh-my-zsh.sh
-
-# rbenv
-#eval "$(rbenv init -)"
-
-# virtualenvwrapper
-#source /usr/bin/virtualenvwrapper.sh
-
-# z
-#source ~/code/z/z.sh
-
-# k
-#source ~/src/k/k.sh
 
 # pyenv
 #eval "$(pyenv init -)"
