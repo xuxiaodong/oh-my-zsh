@@ -1,10 +1,10 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2016 May 08
+# modified:  2016 Jun 20
 #
 
 export ZSH=$HOME/envconf/oh-my-zsh
-export ZSH_THEME="codefun"
+export ZSH_THEME="codeland"
 export DISABLE_AUTO_TITLE="true"
 export DISABLE_AUTO_UPDATE="true"
 
