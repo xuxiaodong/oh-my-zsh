@@ -1,28 +1,31 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2016 May 08
+# modified:  2016 Jul 03
 #
 
 #-- base --#
 
 alias a='$HOME/code'
 alias b='$HOME/bin'
+alias m='man'
+alias p='mpv'
+alias v='nvim'
+alias w='wget -c'
+alias z='zathura'
 
 alias cp='cp -v'
-alias mv='mv -v'
-alias rm='rm -v'
-alias ls='ls -F --color=auto'
-alias lh='ls -lsh'
-alias lo="ls -a | grep '^\.'"
 alias df='df -h'
 alias du='du -h'
+alias lh='ls -lsh'
+alias lo="ls -a | grep '^\.'"
+alias ls='ls -F --color=auto'
+alias mv='mv -v'
+alias rm='rm -v'
+alias ipy='ipython2 --profile toyland'
 
 alias less=$PAGER
-alias grep='grep --color=auto'
+alias grep='egrep --color=auto'
 alias smtp='/usr/sbin/ssmtp -C.ssmtp/ssmtp.conf -oA.ssmtp/revaliases'
-
-alias m='mplayer'
-alias z='zathura'
 
 #-- perl --#
 
@@ -40,5 +43,7 @@ alias rca='mencoder tv:// -tv driver=v4l2:width=320:height=240:device=/dev/video
 
 alias vu='VBoxManage startvm Ubuntu --type sdl'
 alias vw='VBoxManage startvm WinXP --type sdl'
+
+#-- kindle --#
 
 alias kk='/usr/bin/wine $HOME/.wine/drive_c/Program\ Files/Amazon/Kindle/Kindle.exe >/dev/null 2>&1'
