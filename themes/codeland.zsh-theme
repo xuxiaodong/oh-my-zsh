@@ -6,7 +6,7 @@ function zle-line-init zle-keymap-select {
 zle -N zle-line-init
 zle -N zle-keymap-select
 
-PROMPT='%{$fg[white]%} ─╼ %{$reset_color%}'
+PROMPT='%{$fg[white]%} ───╼ %{$reset_color%}'
 RPROMPT='%{$fg[green]%}${PWD/#$HOME/~}%{$reset_color%}$(git_prompt_info) · %{$fg[yellow]%}${VIMODE}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" ± %{$fg[magenta]%}"

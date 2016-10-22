@@ -1,12 +1,13 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2016 Jul 03
+# modified:  2016 Oct 15
 #
 
 #-- base --#
 
-alias a='$HOME/code'
+alias a='$HOME/src'
 alias b='$HOME/bin'
+alias i='vimiv'
 alias m='man'
 alias p='mpv'
 alias v='nvim'
@@ -19,9 +20,11 @@ alias du='du -h'
 alias lh='ls -lsh'
 alias lo="ls -a | grep '^\.'"
 alias ls='ls -F --color=auto'
+alias lr='ls -lrtsh'
 alias mv='mv -v'
 alias rm='rm -v'
 alias ipy='ipython2 --profile toyland'
+alias toilet='toilet --gay -f future'
 
 alias less=$PAGER
 alias grep='egrep --color=auto'
